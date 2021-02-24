@@ -66,9 +66,5 @@ public class LoginPageObj extends Base {
 		String pageTitle = driver.getTitle();
 		return pageTitle;
 	}
-<<<<<<< HEAD
-=======
-	// this is test
 	// this is second test
->>>>>>> stash
 }
