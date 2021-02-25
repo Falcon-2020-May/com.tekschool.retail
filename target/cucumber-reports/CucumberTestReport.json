@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2065605100,
+              "duration": 7462289400,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 582375500,
+              "duration": 806392000,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 147243600,
+              "duration": 2298418800,
               "status": "passed"
             },
             "line": 6,
@@ -46,8 +46,9 @@
           },
           {
             "result": {
-              "duration": 13495800,
-              "status": "passed"
+              "duration": 8746700,
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.DataBaseUtility.runQuery(DataBaseUtility.java:66)\r\n\tat stepDefinitions.DataBaseStepDefinition.user_sends_query(DataBaseStepDefinition.java:22)\r\n\tat ✽.When User sends querry \u0027select * from public.actor\u0027(Features/DataBaseFeature.feature:7)\r\n",
+              "status": "failed"
             },
             "line": 7,
             "name": "User sends querry \u0027select * from public.actor\u0027",
@@ -64,8 +65,7 @@
           },
           {
             "result": {
-              "duration": 21331800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get all information from that table",

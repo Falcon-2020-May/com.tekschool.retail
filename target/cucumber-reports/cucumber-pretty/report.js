@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2065605100,
+  "duration": 7462289400,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,7 +43,7 @@ formatter.match({
   "location": "DataBaseStepDefinition.user_connects_to_postgreSQL_database()"
 });
 formatter.result({
-  "duration": 147243600,
+  "duration": 2298418800,
   "status": "passed"
 });
 formatter.match({
@@ -56,18 +56,18 @@ formatter.match({
   "location": "DataBaseStepDefinition.user_sends_query(String)"
 });
 formatter.result({
-  "duration": 13495800,
-  "status": "passed"
+  "duration": 8746700,
+  "error_message": "java.lang.NullPointerException\r\n\tat utilities.DataBaseUtility.runQuery(DataBaseUtility.java:66)\r\n\tat stepDefinitions.DataBaseStepDefinition.user_sends_query(DataBaseStepDefinition.java:22)\r\n\tat ✽.When User sends querry \u0027select * from public.actor\u0027(Features/DataBaseFeature.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "DataBaseStepDefinition.user_should_get_all_information_from_that_table()"
 });
 formatter.result({
-  "duration": 21331800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 582375500,
+  "duration": 806392000,
   "status": "passed"
 });
 });
